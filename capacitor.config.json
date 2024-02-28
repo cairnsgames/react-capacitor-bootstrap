@@ -1,0 +1,8 @@
+{
+  "appId": "dance.juzt.app",
+  "appName": "main",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}
