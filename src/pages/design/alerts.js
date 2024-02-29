@@ -3,6 +3,7 @@ import Alert from 'react-bootstrap/Alert';
 const Alerts = () => {
   return (
     <>
+    <h2>Alerts</h2>
       {[
         'primary',
         'secondary',

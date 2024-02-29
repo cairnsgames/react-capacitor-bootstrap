@@ -2,6 +2,8 @@ import Accordion from 'react-bootstrap/Accordion';
 
 const Accordians = () => {
   return (
+    <>
+    <h2>Accordian</h2>
     <Accordion defaultActiveKey="0">
       <Accordion.Item eventKey="0">
         <Accordion.Header>Accordion Item #1</Accordion.Header>
@@ -28,6 +30,7 @@ const Accordians = () => {
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>
+    </>
   );
 }
 

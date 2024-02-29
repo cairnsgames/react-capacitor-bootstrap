@@ -3,6 +3,8 @@ import Stack from 'react-bootstrap/Stack';
 
 const Badges = () => {
   return (
+    <>
+    <h2>Badges</h2>
     <Stack direction="horizontal" gap={2}>
       <Badge bg="primary">Primary</Badge>
       <Badge bg="secondary">Secondary</Badge>
@@ -17,6 +19,7 @@ const Badges = () => {
       </Badge>
       <Badge bg="dark">Dark</Badge>
     </Stack>
+    </>
   );
 }
 

@@ -1,3 +1,18 @@
-$primary: green;
+$primary: purple;
 
 @import '~bootstrap/scss/bootstrap';
+
+html, body {
+    height: 100%;
+    min-height:100%;
+}
+body {
+    overflow-y: scroll;
+}
+#app, .container-fluid {
+    height: 100%;
+}
+.page-border {
+    border: 1px solid $primary;
+    border-radius: 1rem;
+}
