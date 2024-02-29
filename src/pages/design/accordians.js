@@ -1,8 +1,9 @@
 import Accordion from 'react-bootstrap/Accordion';
+import PageWrapper from '../../parts/pagewrapper';
 
 const Accordians = () => {
   return (
-    <>
+    <PageWrapper>
     <h2>Accordian</h2>
     <Accordion defaultActiveKey="0">
       <Accordion.Item eventKey="0">
@@ -30,7 +31,7 @@ const Accordians = () => {
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>
-    </>
+    </PageWrapper>
   );
 }
 

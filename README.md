@@ -26,7 +26,7 @@ npm run sync
 
 To run the app in Android Studio - click run button
 
-### Simple chnage to see effect
+### Simple change to see effect
 
 in the .env file you can chnage the brand name to see impact of chnages
 
@@ -51,6 +51,16 @@ npm run sync - builds project and syncs to Android Studio
 https://react-bootstrap.github.io/docs/getting-started/introduction
 https://getbootstrap.com/docs/5.3/customize/overview/
 
-## Creating a Splash Sceeen
+## Creating a Splash Sceen
+Provide icon and splash screen source images using this folder/filename structure:
 
-https://www.joshmorony.com/creating-a-dynamic-universal-splash-screen-for-capacitor-android/
+resources/
+├── icon-only.png
+├── icon-foreground.png
+├── icon-background.png
+├── splash.png
+└── splash-dark.png
+
+https://capacitorjs.com/docs/guides/splash-screens-and-icons
+
+npx capacitor-assets generate

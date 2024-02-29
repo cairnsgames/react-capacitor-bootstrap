@@ -2,10 +2,10 @@ import { Container } from "react-bootstrap"
 
 // middle = horiz and vertical center
 // center = horiz center
-const PageWrapper = ({className, position, children}) => {
-    let classes = "";
+const PageWrapper = ({className = "", position, children}) => {
+    let classes = "mt-3";
     if (position === "middle") {
-        classes = "d-flex align-items-center justify-content-center"
+        classes = "d-flex align-items-center justify-content-center mt-3"
     }
     if (position === "center") {
         classes = "d-flex justify-content-center mt-3"

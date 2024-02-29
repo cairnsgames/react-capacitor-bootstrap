@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">main</string>
-    <string name="title_activity_main">main</string>
-    <string name="package_name">dance.juzt.app</string>
-    <string name="custom_url_scheme">dance.juzt.app</string>
+    <string name="app_name">Cairnsgames Mobile</string>
+    <string name="title_activity_main">Cairnsgames Mobile</string>
+    <string name="package_name">za.co.cairnsgames.app</string>
+    <string name="custom_url_scheme">za.co.cairnsgames.app</string>
 </resources>
