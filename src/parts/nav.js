@@ -65,6 +65,9 @@ function NavPart() {
               <NavDropdown.Item href="#design/cards">
                 Cards
               </NavDropdown.Item>
+              <NavDropdown.Item href="#design/carousela">
+                Carousel
+              </NavDropdown.Item>
               <NavDropdown.Item href="#design">Other Elements</NavDropdown.Item>
             </NavDropdown>
           </Nav>

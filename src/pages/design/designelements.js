@@ -5,7 +5,7 @@ import Breadcrumbs from "./breadcrumbs";
 import ButtonGroups from "./buttongroups";
 import useLocation from "../../hooks/uselocation";
 import Cards from "./card";
-import Container from "react-bootstrap/Container";
+import Carousels from "./carousels";
 
 const DesignElements = () => {
   const { hash } = useLocation();
@@ -29,6 +29,10 @@ const DesignElements = () => {
   if (hash.includes("cards")) {
     return <Cards />;
   }
+  if (hash.includes("carousel")) {
+    return <Carousels />;
+  }
+
   return (
     <>
       <a href="#design/accordian">Accordians</a>
@@ -43,6 +47,7 @@ const DesignElements = () => {
       <br />      
       <a href="#design/cards">Card</a>
       <br />
+      <a href="#design/carousela">Carousel</a>
     </>
   );
 };
