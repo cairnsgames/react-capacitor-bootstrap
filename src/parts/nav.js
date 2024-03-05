@@ -34,7 +34,11 @@ function NavPart() {
               </Nav.Link>
               <Nav.Link className="bg-primary" href="#examples/features/1" bg="primary">
                 Features
-              </Nav.Link>              
+              </Nav.Link>      
+              
+              <Nav.Link className="bg-primary" href="#examples/pricing/1" bg="primary">
+                Pricing
+              </Nav.Link>          
             </NavDropdown>
 
             <NavDropdown className="bg-primary" title="App Clones">

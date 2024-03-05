@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-const FeaturesExample1 = () => {
+const ExampleFeatures1 = () => {
     return (<Container fluid className="px-1 py-2 px-lg-3 py-lg-5" id="featured-3">
     <h2 className="pb-2 border-bottom">Columns with icons</h2>
     <Row className="g-4 py-5" xs={1} lg={3}>
@@ -44,4 +44,4 @@ const FeaturesExample1 = () => {
   </Container>)
 }
 
-export default FeaturesExample1;
+export default ExampleFeatures1;

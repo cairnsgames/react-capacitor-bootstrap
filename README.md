@@ -1,9 +1,10 @@
 # React/Bootstrap/Capacitor Example
 
 Base project using:
+
 - reactjs
 - capacitorjs
-- bootstrap, react-bootstrap
+- bootstrap, react-bootstrap, react-bootstrap-icons
 
 ## Getting started
 
@@ -48,14 +49,15 @@ npm run sync - builds project and syncs to Android Studio
 
 ## Styling
 
-https://react-bootstrap.github.io/docs/getting-started/introduction
-https://getbootstrap.com/docs/5.3/customize/overview/
+<https://react-bootstrap.github.io/docs/getting-started/introduction>
+<https://getbootstrap.com/docs/5.3/customize/overview/>
 
 check app.scss as an example
 
 Current Overrides - border for checkboxes and inputs, primary color
 
 ## Creating a Splash Sceen
+
 Provide icon and splash screen source images using this folder/filename structure:
 
 resources/
@@ -65,6 +67,14 @@ resources/
 ├── splash.png
 └── splash-dark.png
 
-https://capacitorjs.com/docs/guides/splash-screens-and-icons
+<https://capacitorjs.com/docs/guides/splash-screens-and-icons>
 
 npx capacitor-assets generate
+
+## Bootstrap examples
+
+Taken from: <https://getbootstrap.com/docs/5.0/examples/>
+
+## Design Elements
+
+Taken from: <https://react-bootstrap.github.io/>
