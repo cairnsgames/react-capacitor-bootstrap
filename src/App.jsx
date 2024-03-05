@@ -17,8 +17,6 @@ import Providers from "./providers/providers";
 const App = () => {
   const { hash } = useLocation();
 
-  console.log("HASH", hash);
-
   return (
     <Providers>
       <Container fluid>

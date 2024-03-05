@@ -1,4 +1,13 @@
+@import "../node_modules/bootstrap/scss/functions";
+
+
 $primary: purple;
+
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+$form-check-input-border: 1px solid $gray-500;
+$input-border-color: $gray-500;
 
 @import '~bootstrap/scss/bootstrap';
 

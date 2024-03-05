@@ -20,7 +20,6 @@ const ThemeProvider = (props) => {
 
   useEffect(() => {
     if (theme) {
-      console.log("Set Mode", theme);
       document.documentElement.setAttribute("data-bs-theme", theme);
       localStorage.setItem("theme", theme);
     }

@@ -30,7 +30,7 @@ To run the app in Android Studio - click run button
 
 in the .env file you can chnage the brand name to see impact of chnages
 
-A .env file needs a new
+A .env file chnage needs a new
 npm start
 npm run sync
 
@@ -50,6 +50,10 @@ npm run sync - builds project and syncs to Android Studio
 
 https://react-bootstrap.github.io/docs/getting-started/introduction
 https://getbootstrap.com/docs/5.3/customize/overview/
+
+check app.scss as an example
+
+Current Overrides - border for checkboxes and inputs, primary color
 
 ## Creating a Splash Sceen
 Provide icon and splash screen source images using this folder/filename structure:
