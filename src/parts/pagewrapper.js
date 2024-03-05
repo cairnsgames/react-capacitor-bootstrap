@@ -1,8 +1,9 @@
 import { Container } from "react-bootstrap"
 
+// used to wrape a page to be full screen
 // middle = horiz and vertical center
 // center = horiz center
-const PageWrapper = ({className = "", position, children}) => {
+const PageWrapper = ({className = "", style={}, position, children}) => {
     let classes = "mt-3";
     if (position === "middle") {
         classes = "d-flex align-items-center justify-content-center mt-3"
@@ -11,7 +12,7 @@ const PageWrapper = ({className = "", position, children}) => {
         classes = "d-flex justify-content-center mt-3"
     }
     return (            
-        <div style={{minHeight:"85%"}} className={`${className} ${classes}`}>
+        <div style={{...style, minHeight:"85%"}} className={`${className} ${classes}`}>
             {children}
         </div>
     )
