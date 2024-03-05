@@ -3,6 +3,7 @@ import { useLocation } from "../hooks/uselocation";
 import ExamplesHero1 from './heros/example1';
 import ExampleFeatures1 from './features/featuresexample1';
 import ExamplePricing from './pricing/pricing';
+import ExampleAlbum from './album/album';
 
 const Examples = () => {    
   const { hash } = useLocation();
@@ -15,6 +16,9 @@ const Examples = () => {
   }
   if (hash.includes("pricing")) {
     return (<ExamplePricing />)
+  }
+  if (hash.includes("album")) {
+    return (<ExampleAlbum />)
   }
 
     return (

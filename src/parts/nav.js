@@ -38,7 +38,10 @@ function NavPart() {
               
               <Nav.Link className="bg-primary" href="#examples/pricing/1" bg="primary">
                 Pricing
-              </Nav.Link>          
+              </Nav.Link>    
+              <Nav.Link className="bg-primary" href="#examples/album/1" bg="primary">
+                Album
+              </Nav.Link>       
             </NavDropdown>
 
             <NavDropdown className="bg-primary" title="App Clones">
