@@ -17,7 +17,7 @@ import {
   Col,
   Dropdown,
 } from "react-bootstrap";
-import Avatar from "./avatar";
+import Avatar from "../../components/avatar";
 
 const Post = ({
   title,

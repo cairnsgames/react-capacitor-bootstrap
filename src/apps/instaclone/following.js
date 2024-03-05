@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import { Person } from "react-bootstrap-icons";
-import Avatar from "./avatar";
+import Avatar from "../../components/avatar";
 
 const Following = ({ title, size, className, style }) => {
   const defaultSize = size || 64;
