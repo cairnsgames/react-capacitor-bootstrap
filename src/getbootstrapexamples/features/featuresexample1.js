@@ -5,8 +5,8 @@ import Col from "react-bootstrap/Col";
 
 const ExampleFeatures1 = () => {
     return (<Container fluid className="px-1 py-2 px-lg-3 py-lg-5" id="featured-3">
-    <h2 className="pb-2 border-bottom">Columns with icons</h2>
-    <Row className="g-4 py-5" xs={1} lg={3}>
+    <h2 className="pb-2 border-bottom">Features</h2>
+    <Row className="g-4 pb-5" xs={1} lg={3}>
       <Col className="feature col">
         <div className="feature-icon bg-primary p-3">
           <Box2Heart color="white" size="24" />

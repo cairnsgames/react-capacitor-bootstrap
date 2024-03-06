@@ -42,7 +42,7 @@ const ExampleAlbum = () => {
   return (
     <div class="album py-5 bg-light">
       <Container>
-        <Row sm={1} md={3}>
+        <Row sm={1} md={2} lg={3} xl={4}>
           <AlbumCard />
           <AlbumCard />
           <AlbumCard />
