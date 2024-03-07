@@ -29,9 +29,9 @@ To run the app in Android Studio - click run button
 
 ### Simple change to see effect
 
-in the .env file you can chnage the brand name to see impact of chnages
+in the .env file you can change the brand name to see impact of chnages
 
-A .env file chnage needs a new
+A .env file change needs a new
 npm start
 npm run sync
 
@@ -39,7 +39,8 @@ to be visible
 
 ## Requires
 
-Android Studio
+Android Studio for Android Dev
+iOS should be supported but not used by the developer
 
 ## Commands
 
@@ -78,3 +79,14 @@ Taken from: <https://getbootstrap.com/docs/5.0/examples/>
 ## Design Elements
 
 Taken from: <https://react-bootstrap.github.io/>
+
+
+# Push Notifications
+
+<https://medium.com/@avilaatencioa/ionic-capacitor-push-notifications-9dc248e59357>
+
+Note: app name in google-services and capacitor config must match
+za.co.cairnsgames.app
+
+NOTE google-services is not copied on sync
+copy to adroid/app directory

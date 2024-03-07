@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { createRoot } from "react-dom";
+import { createRoot } from "react-dom/client";
 import { Container } from "react-bootstrap";
 import "./app.scss";
 
